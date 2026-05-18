@@ -1,0 +1,33 @@
+# Vivado project files
+vivado_project/*
+!vivado_project/.gitkeep
+
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.bit
+*.bin
+*.ltx
+*.xpr
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/
+*.gen/
+.Xil/
+
+# Vitis workspace
+sw/*
+!sw/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+Thumbs.db
+.DS_Store
